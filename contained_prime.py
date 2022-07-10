@@ -14,7 +14,7 @@ def is_prime(n):
     if n % i == 0: 
       return False
   
-def task_1(k):
+def task_1(k=5):
     nums_list = gen_nums(k)
     prime_num = []
     for i in nums_list:
@@ -22,5 +22,6 @@ def task_1(k):
         if res:
             prime_num.append(i)
     return prime_num
-
-print(task_1(5))  
+  
+k = 10
+print(task_1(k))
