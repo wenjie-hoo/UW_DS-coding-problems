@@ -14,5 +14,5 @@ def task_1(k=5):
     prime_num = [i for i in gen_nums(k) if is_prime(i)]
     return prime_num
   
-print('k=5:',task_1(5))
-print('k=10:',task_1(10))
+print('k=5:',len(task_1(5)))
+print('k=10:',len(task_1(10)))
